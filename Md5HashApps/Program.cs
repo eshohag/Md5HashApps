@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Md5HashApps
 {
@@ -10,6 +6,9 @@ namespace Md5HashApps
     {
         static void Main(string[] args)
         {
+            string encriptPassword = Md5Hash.Md5HashEncription("shohag");
+            Console.WriteLine(encriptPassword);
+            Console.ReadKey();
         }
     }
 }
